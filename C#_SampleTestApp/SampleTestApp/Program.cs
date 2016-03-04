@@ -2,6 +2,7 @@
 
 namespace SampleTestApp
 {
+	#region FIRST  ANSWER
 	public class MathUtils
 	{
 
@@ -13,7 +14,9 @@ namespace SampleTestApp
 		}
 
 	}
+	#endregion
 
+    #region SECOND ANSWER
 	public class Path
 	{
 
@@ -33,8 +36,9 @@ namespace SampleTestApp
 			return this;
 		}
 	}
+    #endregion
 
-
+    #region THIRD ANSWER
 	public class Run
 	{
 		public static int IndexOfLongestRun(string str)
@@ -61,8 +65,11 @@ namespace SampleTestApp
 		}
 
 	}​
+    #endregion
 
 
+
+   #region FOURTH ANSWER
 	public class Node
 	{
 		public int Value { get; set; }
@@ -100,7 +107,9 @@ namespace SampleTestApp
 			return true;
 		}
 	}​
+   #endregion
 
+    #region MAIN
 	class MainClass
 	{
 		public static void Main (string[] args)
@@ -127,4 +136,7 @@ namespace SampleTestApp
 
 		}
 	}
+    #endregion
+
+
 }
